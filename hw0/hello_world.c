@@ -16,7 +16,7 @@ int main(void) {
     printf("%s\n",str);
 
     // TODO: use strlen to get the length of str
-    len = 0;
+    len = strlen(str);
     printf("Length is %d\n", len);
 
     return 0;
